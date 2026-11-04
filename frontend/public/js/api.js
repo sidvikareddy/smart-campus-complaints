@@ -1,5 +1,5 @@
 // Shared helpers for all pages
-const API = '/api';
+const API = 'https://smart-campus-complaints-k4zt.onrender.com/api';
 
 const Auth = {
   get token() { return localStorage.getItem('token') || sessionStorage.getItem('token'); },
